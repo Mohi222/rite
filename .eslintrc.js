@@ -15,4 +15,5 @@ module.exports = {
     'plugin:prettier/recommended',
   ],
   rules: {},
+  ignorePatterns: ['/node_modules', '/dist', '/bin', '/templates'],
 }

@@ -3,9 +3,9 @@ import { GluegunCommand } from 'gluegun'
 const command: GluegunCommand = {
   name: 'rite',
   run: async (toolbox) => {
-    const { print } = toolbox
+    const { print, templates } = toolbox
 
-    print.info('Welcome to your CLI')
+    print.info(templates())
   },
 }
 
